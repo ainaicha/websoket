@@ -15,4 +15,4 @@ var server = ws.createServer(function (conn) {//调用cretteServer，里面有�
 		console.log(err)
 	})
 }).listen(PORT);//监听端口
-console.log('websocket server listening on port' + PORT);//检测server运行情况    运行server   node wsServer.js(写有server的js文件名)
+console.log('websocket server listening on port' + PORT);//检测server运行情况    运行server   命令：node wsServer.js(写有wsServer为server的js文件名)
